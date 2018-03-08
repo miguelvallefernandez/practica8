@@ -1,0 +1,25 @@
+.cronometro{
+    margin: 150px;
+}
+
+#numeros {
+    display: flex;
+    font-size: 210px;
+}
+
+.botones{
+    margin-left: 100px;
+}
+
+.botones button{
+    height: 120px;
+    width: 210px;
+}
+
+.botones span{
+   font-size: 70px;
+}
+
+.botones button:focus{
+    box-shadow: inset 0px 0px 0px 200px rgba(0,0,0,0.46);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practica 8</title>
+    <link href="css/micss.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <div class="cronometro">
+        <div id='numeros'>
+            <p id="horas">00</p>
+            <p>:</p>
+            <p id="minutos">00</p>
+            <p>:</p>
+            <p id="segundos">00</p>
+        </div>
+        <div class="botones">
+            <button type="button" class="btn btn-success" onclick="empezar();">
+                <span class="glyphicon glyphicon-play"></span></button>
+            <button type="button" class="btn btn-warning" onclick="parar();">
+                <span class="glyphicon glyphicon-pause"></span>
+            </button>
+            <button type="button" class="btn btn-danger" onclick="reiniciar();">
+                <span class="glyphicon glyphicon-stop"></span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/cronometro.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+recorres los arrays
+
+si esta no lo metes
+
+si no esta, store.addCategory (por ejemplo)
+
+
+CON CURSORES
